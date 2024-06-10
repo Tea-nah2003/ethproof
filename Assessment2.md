@@ -60,11 +60,12 @@ contract MyToken {
 }
 ```
 #Help
----
+```
 Mapping is a special data type in Solidity used to create key-value pairs. It's similar to a dictionary or a hash table in other programming languages.
 mapping(address => uint256) public balances;
 It means for each unique Ethereum address, there is an associated uint256 value, which in this context, represents the balance of tokens held by that address.The public keyword means that Solidity will automatically create a function that allows anyone to query the balance of a given address.
----
+```
+
 
 ## Output
 
@@ -75,6 +76,9 @@ After that go to the bottom at deployed /unpinned contracts  and cilck on side a
 Here,we have to enter the address of the token which we can copy from the Account section and Enter the address in the Burn,Mint and Balances section.
 Then transact by enetring the amount we want to add to or remove from the balance.
 if the balance is insufficient ,we will revert a message to the burn function
+Mint will Add the amount
+Burn will Remove the balances
+Total supply will return the Balances at last.
 ---
 
 ## Authors
