@@ -61,14 +61,16 @@ contract MyToken {
 ```
 #Help
 ```
-Mapping is a special data type in Solidity used to create key-value pairs. It's similar to a dictionary or a hash table in other programming languages.
-mapping(address => uint256) public balances;
-It means for each unique Ethereum address, there is an associated uint256 value, which in this context, represents the balance of tokens held by that address.The public keyword means that Solidity will automatically create a function that allows anyone to query the balance of a given address.
+Mapping is a special data type in Solidity used to create key-value pairs.
+It's similar to a dictionary or a hash table in other programming languages.
+i.e mapping(address => uint256) public balances;
+It means for each unique Ethereum address, there is an associated uint256 value,
+ which in this context, represents the balance of tokens held by that address.
+The public keyword means that Solidity will automatically create a function that allows anyone to query the balance of a given address.
 ```
 
 
 ## Output
-
 ```
  Compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "^0.8.26" (or another compatible version), and then click on the "Compile assessment2.sol" button.
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and then click on the "Deploy" button.
@@ -79,8 +81,9 @@ if the balance is insufficient ,we will revert a message to the burn function
 Mint will Add the amount
 Burn will Remove the balances
 Total supply will return the Balances at last.
----
-
+```
 ## Authors
+```
 Teena Neupane 
 neupaneteena200397@gmail.com
+```
