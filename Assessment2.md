@@ -66,7 +66,7 @@ It's similar to a dictionary or a hash table in other programming languages.
 i.e mapping(address => uint256) public balances;
 It means for each unique Ethereum address, there is an associated uint256 value,
  which in this context, represents the balance of tokens held by that address.
-The public keyword means that Solidity will automatically create a function that allows anyone to query the balance of a given address.
+The public keyword means that Solidity will automatically create a function that allows anyone to query the balance of a given address.the address can be copied from the account section and can be changed
 ```
 
 
