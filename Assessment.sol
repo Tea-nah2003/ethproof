@@ -42,7 +42,7 @@ contract MyToken {
       else 
       {
          revert("Balance is less than the value to burn");
-         //reverts this message 
+         //reverts this message if balance is insufficient
       }
     }
 }
